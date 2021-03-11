@@ -1,0 +1,22 @@
+/** @format */
+
+// import all the scss files here
+@import "abstracts/mixins";
+@import "abstracts/variables";
+
+@import "pages/home";
+
+@import "base/base";
+@import "base/typography.scss";
+
+@import "components/button";
+
+@import "layout/navbar";
+@import "layout/grid";
+@import "layout/header";
+@import "layout/project";
+@import "layout/about";
+@import "layout/skills";
+@import "layout/contact";
+@import "layout/connect";
+@import "layout/footer";

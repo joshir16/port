@@ -1,0 +1,28 @@
+/** @format */
+
+// all ind of heading / paragraphs will be here
+@import url("https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap");
+
+body {
+  font-family: "IBM Plex Mono", monospace;
+}
+
+.main_heading {
+  font-size: 8rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 1rem;
+}
+
+.sub_heading {
+  font-weight: 700;
+  font-size: 5rem;
+  letter-spacing: 0.2rem;
+}
+
+.span_heading {
+  font-weight: 700;
+  color: transparent;
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: #f5f5f5;
+}

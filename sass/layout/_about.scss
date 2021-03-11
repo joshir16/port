@@ -1,0 +1,37 @@
+/** @format */
+
+.about {
+  padding: 5rem 7rem;
+
+  color: #3a3a3a;
+
+  &_head {
+    padding: 2rem 2rem;
+
+    &-heading {
+      font-style: italic;
+      line-height: 1.2;
+    }
+
+    &-span {
+      font-size: 5rem;
+      line-height: 1.2;
+
+      -webkit-text-stroke-width: 1px;
+      -webkit-text-stroke-color: #3a3a3a;
+    }
+  }
+
+  &_desc {
+    padding: 1rem 2rem;
+
+    &-para {
+      font-size: 2rem;
+      font-weight: 400;
+    }
+  }
+
+  @media only screen and (max-width: $bp-largest) {
+    padding: 3rem;
+  }
+}
