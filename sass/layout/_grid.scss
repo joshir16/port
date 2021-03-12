@@ -24,7 +24,7 @@
 
   @media only screen and (max-width: $bp-small) {
     grid-template-rows:
-      100vh repeat(6, min-content) minmax(min-content, 1fr)
+      100vh repeat(5, min-content) minmax(min-content, 1fr)
       20vh;
   }
 }
@@ -48,6 +48,7 @@
     rgba(17, 17, 17, 1) 100%
   );
 
+  padding: 10rem;
   grid-column: full-start / col-end 4;
   grid-row: 2 / 4;
 
