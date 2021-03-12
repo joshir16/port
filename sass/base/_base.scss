@@ -17,16 +17,17 @@ html {
     font-size: 56%;
   }
 
-  @media only screen and (max-width: $bp-large) {
-    font-size: 50%;
-  }
+  // @media only screen and (max-width: $bp-large) {
+  //   font-size: 50%;
+  // }
 
   @media only screen and (max-width: $bp-medium) {
     font-size: 43%;
   }
-  @media only screen and (max-width: $bp-large) {
-    font-size: 37%;
-  }
+
+  // @media only screen and (max-width: $bp-small) {
+  //   font-size: 37%;
+  // }
 }
 
 body {
