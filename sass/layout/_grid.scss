@@ -30,7 +30,6 @@
 }
 
 /* =========================================================== */
-
 .header {
   grid-column: full-start / full-end;
   background-image: radial-gradient(
@@ -40,11 +39,6 @@
   );
 }
 
-/* =========================================================== */
-.project {
-  grid-column: full-start / full-end;
-  background-image: linear-gradient(to right, #fc575e, #90d5ec);
-}
 /* =========================================================== */
 
 .skill {
@@ -63,6 +57,7 @@
   }
 }
 
+/* =========================================================== */
 .about {
   background-color: #f5f5f5;
 
@@ -75,11 +70,13 @@
   }
 }
 
+/* =========================================================== */
 .edu {
   background-color: #3a3a3a;
 
   grid-column: col-start 5 / full-end;
   grid-row: 3 / 4;
+  padding: 10rem;
 
   @media only screen and (max-width: $bp-small) {
     grid-column: 1 / -1;
@@ -95,6 +92,8 @@
     rgba(17, 17, 17, 1) 100%
   );
 
+  padding: 10rem;
+
   grid-column: full-start / col-end 4;
   grid-row: 4 / 6;
 
@@ -104,28 +103,38 @@
   }
 }
 
+/* =========================================================== */
 .contact {
   background-image: linear-gradient(to right, #fc575e, #90d5ec);
 
   grid-column: col-start 5 / full-end;
   grid-row: 4 / 5;
 
+  padding: 10rem;
   @media only screen and (max-width: $bp-small) {
     grid-column: 1 / -1;
     grid-row: 6 / 7;
   }
 }
 
+/* =========================================================== */
 .connect {
   background-image: linear-gradient(to right, #121212 50%, #3a3a3a 50%);
 
   grid-column: col-start 5 / full-end;
   grid-row: 5 / 6;
 
+  padding: 10rem;
   @media only screen and (max-width: $bp-small) {
     grid-column: 1 / -1;
     grid-row: 7 / 8;
   }
+}
+
+/* =========================================================== */
+.project {
+  grid-column: full-start / full-end;
+  background-image: linear-gradient(to right, #fc575e, #90d5ec);
 }
 
 /* =========================================================== */
