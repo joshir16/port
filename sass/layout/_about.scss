@@ -6,7 +6,7 @@
   color: #3a3a3a;
 
   &_head {
-    padding: 2rem 2rem;
+    padding: 2rem;
 
     &-heading {
       font-style: italic;
@@ -17,17 +17,18 @@
       font-size: 5rem;
       line-height: 1.2;
 
-      -webkit-text-stroke-width: 1px;
+      -webkit-text-stroke-width: 2px;
       -webkit-text-stroke-color: #3a3a3a;
     }
   }
 
   &_desc {
-    padding: 1rem 2rem;
+    padding: 2rem;
 
     &-para {
       font-size: 2rem;
       font-weight: 400;
+      line-height: 1.8;
     }
   }
 

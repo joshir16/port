@@ -37,9 +37,9 @@ html {
       font-size: 43.75%; } }
 
 body {
-  font-weight: 300;
+  font-weight: 400;
   line-height: 1.6;
-  background-color: #121212; }
+  background-color: #1f1f1f; }
 
 /** @format */
 body {
@@ -222,8 +222,7 @@ body {
 /* =========================================================== */
 .project {
   grid-column: full-start / full-end;
-  grid-row: 4 / 5;
-  background-image: linear-gradient(to right, #fc575e, #90d5ec); }
+  grid-row: 4 / 5; }
 
 /* =========================================================== */
 .contact {
@@ -306,6 +305,7 @@ body {
     .project_cont-boxes {
       border: 1rem solid transparent;
       outline: 0.5rem solid #f5f5f5;
+      filter: brightness(75%);
       display: flex;
       justify-content: center;
       align-items: center;
@@ -335,20 +335,21 @@ body {
   padding: 5rem 7rem;
   color: #3a3a3a; }
   .about_head {
-    padding: 2rem 2rem; }
+    padding: 2rem; }
     .about_head-heading {
       font-style: italic;
       line-height: 1.2; }
     .about_head-span {
       font-size: 5rem;
       line-height: 1.2;
-      -webkit-text-stroke-width: 1px;
+      -webkit-text-stroke-width: 2px;
       -webkit-text-stroke-color: #3a3a3a; }
   .about_desc {
-    padding: 1rem 2rem; }
+    padding: 2rem; }
     .about_desc-para {
       font-size: 2rem;
-      font-weight: 400; }
+      font-weight: 400;
+      line-height: 1.8; }
   @media only screen and (max-width: 75em) {
     .about {
       padding: 3rem; } }
