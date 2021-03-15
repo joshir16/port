@@ -267,6 +267,10 @@ body {
   background-color: #fc555d;
   grid-column: full-start / full-end;
   grid-row: 5 / 6; }
+  @media only screen and (max-width: 37.5em) {
+    .footer {
+      grid-column: 1 / -1;
+      grid-row: 7 / 8; } }
 
 /** @format */
 .header {
