@@ -13,7 +13,7 @@
     }
 
     &-span {
-      font-size: 5rem;
+      font-size: 4rem;
       line-height: 1.2;
 
       -webkit-text-stroke-width: 2px;
@@ -23,6 +23,7 @@
 
   &_desc {
     padding: 2rem;
+    padding-top: 0rem;
 
     &-para {
       font-size: 2rem;
@@ -33,5 +34,13 @@
 
   @media only screen and (max-width: $bp-largest) {
     padding: 3rem;
+  }
+}
+
+.edu {
+  padding: 2rem;
+
+  &_heading {
+    line-height: 1.2;
   }
 }
