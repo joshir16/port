@@ -46,7 +46,6 @@
     rgba(17, 17, 17, 1) 100%
   );
 
-  padding: 10rem;
   grid-column: full-start / col-end 4;
   grid-row: 2 / 4;
 
@@ -125,8 +124,7 @@
 /* =========================================================== */
 
 .footer {
-  // background-image: linear-gradient(to right, #fc575e, #90d5ec);
-  background-color: #f5f5f5;
+  background-color: #fc555d;
 
   grid-column: full-start / full-end;
 }
