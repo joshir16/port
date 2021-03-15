@@ -3,7 +3,11 @@
 .about {
   padding: 5rem 7rem;
 
-  color: #3a3a3a;
+  color: #121212;
+
+  // display: flex;
+  // flex-direction: column;
+  // justify-content: center;
 
   &_head {
     padding: 2rem;
@@ -23,11 +27,11 @@
 
   &_desc {
     padding: 2rem;
-    padding-top: 0rem;
+    color: #3a3a3a;
 
     &-para {
       font-size: 2rem;
-      font-weight: 400;
+      font-weight: 500;
       line-height: 1.8;
     }
   }
@@ -37,10 +41,21 @@
   }
 }
 
-.edu {
+.download {
   padding: 2rem;
 
-  &_heading {
-    line-height: 1.2;
+  &-btn {
+    display: inline-block;
+    font-size: 2rem;
+    font-weight: 500;
+    font-style: italic;
+    color: #f5f5f5;
+    background-color: #3a3a3a;
+    transition: all 0.2s ease;
+
+    &:hover {
+      transform: translateY(-2px);
+      box-shadow: 0 0 1.5rem #121212;
+    }
   }
 }

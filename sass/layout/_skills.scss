@@ -4,8 +4,10 @@
   padding: 5rem 7rem;
 
   &_heading {
+    font-size: 4rem;
     line-height: 1.2;
     padding: 2rem;
+    font-style: italic;
   }
 
   &_container {
@@ -18,7 +20,7 @@
       justify-content: center;
 
       &:not(:last-child) {
-        margin-bottom: 5rem;
+        margin-bottom: 3rem;
       }
 
       &-name {
@@ -30,7 +32,7 @@
 
       &-score {
         display: inline-block;
-        width: 80%;
+        width: 75%;
         padding: 0rem 1rem;
         margin: 1rem auto;
         border-radius: 0.5rem;
@@ -76,7 +78,6 @@
       font-size: 2rem;
       font-weight: 400;
       font-style: italic;
-      margin-top: 5rem;
 
       &-span {
         color: #90d5ec;
