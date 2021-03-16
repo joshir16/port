@@ -4,10 +4,9 @@
   padding: 5rem 7rem;
 
   &_heading {
-    font-size: 4rem;
-    line-height: 1.2;
     padding: 2rem;
-    font-style: italic;
+
+    color: #121212;
   }
 
   &_container {
@@ -25,9 +24,10 @@
 
       &-name {
         font-size: 2.5rem;
-        font-weight: 400;
+        font-weight: 700;
+
         display: inline-block;
-        color: #90d5ec;
+        color: #3a3a3a;
       }
 
       &-score {
@@ -76,11 +76,12 @@
 
     &-para {
       font-size: 2rem;
-      font-weight: 400;
+      font-weight: 500;
       font-style: italic;
+      color: #3a3a3a;
 
       &-span {
-        color: #90d5ec;
+        color: #3a3a3a;
         font-weight: 700;
       }
     }

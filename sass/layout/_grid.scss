@@ -40,11 +40,12 @@
 /* =========================================================== */
 
 .skill {
-  background-image: radial-gradient(
-    circle at 70% 85%,
-    rgba(37, 37, 37, 1) 0%,
-    rgba(17, 17, 17, 1) 100%
-  );
+  // background-image: radial-gradient(
+  //   circle at 70% 85%,
+  //   rgba(37, 37, 37, 1) 0%,
+  //   rgba(17, 17, 17, 1) 100%
+  // );
+  background-color: #f5f5f5;
 
   grid-column: full-start / col-end 4;
   grid-row: 2 / 3;

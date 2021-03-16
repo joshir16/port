@@ -3,23 +3,23 @@
 .project {
   display: grid;
   grid-template-columns: minmax(60vw, 1fr);
-  column-gap: 5rem;
+  grid-template-rows: repeat (2, min-content);
   row-gap: 1rem;
 
-  justify-content: center;
-  align-items: center;
+  padding: 5rem 7rem;
+
+  &_heading {
+    padding: 2rem;
+  }
 
   &_cont {
     grid-column: 1 / 3;
-    padding: 3rem 5rem;
 
     display: flex;
     justify-content: center;
     align-items: center;
 
     flex-wrap: wrap;
-
-    margin: 2rem;
 
     // all link ================================
     &_link {
