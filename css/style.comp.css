@@ -28,16 +28,7 @@ html {
   scroll-behavior: smooth; }
   @media only screen and (max-width: 75em) {
     html {
-      font-size: 56%; } }
-  @media only screen and (max-width: 62.5em) {
-    html {
       font-size: 50%; } }
-  @media only screen and (max-width: 50em) {
-    html {
-      font-size: 43.75%; } }
-  @media only screen and (max-width: 28.75em) {
-    html {
-      font-size: 37.5%; } }
 
 body {
   font-weight: 400;
@@ -202,7 +193,7 @@ body {
   @media only screen and (max-width: 62.5em) {
     .container {
       grid-template-columns: [full-start] [center-start] repeat(8, [col-start] minmax(min-content, 20rem) [col-end]) [center-end] [full-end]; } }
-  @media only screen and (max-width: 37.5em) {
+  @media only screen and (max-width: 50em) {
     .container {
       grid-template-rows: 100vh repeat(5, min-content) 8vh; } }
 
@@ -217,7 +208,7 @@ body {
   background-color: #f5f5f5;
   grid-column: full-start / col-end 4;
   grid-row: 2 / 3; }
-  @media only screen and (max-width: 37.5em) {
+  @media only screen and (max-width: 50em) {
     .skill {
       grid-column: 1 / -1;
       grid-row: 3 / 4; } }
@@ -227,7 +218,7 @@ body {
   background-color: #f5f5f5;
   grid-column: col-start 5 / full-end;
   grid-row: 2 / 3; }
-  @media only screen and (max-width: 37.5em) {
+  @media only screen and (max-width: 50em) {
     .about {
       grid-column: 1 / -1;
       grid-row: 2 / 3; } }
@@ -237,7 +228,7 @@ body {
 .project {
   grid-column: full-start / full-end;
   grid-row: 3 / 4; }
-  @media only screen and (max-width: 37.5em) {
+  @media only screen and (max-width: 50em) {
     .project {
       grid-column: 1 / -1;
       grid-row: 4 / 5; } }
@@ -248,7 +239,7 @@ body {
   grid-row: 4 / 5;
   background-color: #3a3a3a;
   padding: 10rem; }
-  @media only screen and (max-width: 37.5em) {
+  @media only screen and (max-width: 50em) {
     .contact {
       grid-column: 1 / -1;
       grid-row: 5 / 6; } }
@@ -258,7 +249,7 @@ body {
   grid-column: col-start 5 / full-end;
   grid-row: 4 / 5;
   padding: 10rem; }
-  @media only screen and (max-width: 37.5em) {
+  @media only screen and (max-width: 50em) {
     .connect {
       grid-column: 1 / -1;
       grid-row: 6 / 7; } }
@@ -268,7 +259,7 @@ body {
   background-color: #fc555d;
   grid-column: full-start / full-end;
   grid-row: 5 / 6; }
-  @media only screen and (max-width: 37.5em) {
+  @media only screen and (max-width: 50em) {
     .footer {
       grid-column: 1 / -1;
       grid-row: 7 / 8; } }
@@ -352,6 +343,9 @@ body {
         filter: blur(0.5rem) brightness(50%); }
       .project_cont-boxes:hover > .project_cont-boxes-name {
         opacity: 1; }
+  @media only screen and (max-width: 75em) {
+    .project {
+      padding: 3rem; } }
 
 /** @format */
 .about {
@@ -438,6 +432,9 @@ body {
       .skill_other-para-span {
         color: #3a3a3a;
         font-weight: 700; }
+  @media only screen and (max-width: 75em) {
+    .skill {
+      padding: 3rem; } }
 
 /** @format */
 /** @format */
