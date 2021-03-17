@@ -5,6 +5,7 @@
 
   &_heading {
     padding: 2rem;
+    line-height: 1.2;
 
     color: #121212;
   }
@@ -19,7 +20,7 @@
       justify-content: center;
 
       &:not(:last-child) {
-        margin-bottom: 3rem;
+        margin-bottom: 2.5rem;
       }
 
       &-name {
