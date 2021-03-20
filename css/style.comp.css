@@ -52,8 +52,8 @@ body {
   letter-spacing: 1rem; }
 
 .sub_heading {
-  font-weight: 700;
   font-size: 5rem;
+  font-weight: 700;
   font-style: italic;
   letter-spacing: 0.2rem; }
 
@@ -211,7 +211,6 @@ body {
 
 /* =========================================================== */
 .skill {
-  background-color: #f5f5f5;
   grid-column: full-start / col-end 4;
   grid-row: 2 / 3; }
   @media only screen and (max-width: 50em) {
@@ -243,7 +242,7 @@ body {
 .contact {
   grid-column: full-start / col-end 4;
   grid-row: 4 / 5;
-  background-color: #3a3a3a; }
+  background-color: #f5f5f5; }
   @media only screen and (max-width: 50em) {
     .contact {
       grid-column: 1 / -1;
@@ -260,7 +259,7 @@ body {
 
 /* =========================================================== */
 .footer {
-  background-color: #fc555d;
+  background-color: #90d5ec;
   grid-column: full-start / full-end;
   grid-row: 5 / 6; }
   @media only screen and (max-width: 50em) {
@@ -313,7 +312,9 @@ body {
   row-gap: 1rem;
   padding: 5rem 7rem; }
   .project_heading {
-    padding: 2rem; }
+    padding: 2rem;
+    font-size: 5rem;
+    font-style: italic; }
   .project_cont {
     grid-column: 1 / 3;
     display: flex;
@@ -398,7 +399,8 @@ body {
   .skill_heading {
     padding: 2rem;
     line-height: 1.2;
-    color: #121212; }
+    font-size: 5rem;
+    font-style: italic; }
   .skill_container {
     padding: 2rem; }
     .skill_container-box {
@@ -411,8 +413,8 @@ body {
       .skill_container-box-name {
         font-size: 2.5rem;
         font-weight: 700;
-        display: inline-block;
-        color: #3a3a3a; }
+        padding-left: 3rem;
+        display: inline-block; }
       .skill_container-box-score {
         display: inline-block;
         width: 75%;
@@ -435,10 +437,9 @@ body {
     .skill_other-para {
       font-size: 2rem;
       font-weight: 500;
-      font-style: italic;
-      color: #3a3a3a; }
+      font-style: italic; }
       .skill_other-para-span {
-        color: #3a3a3a;
+        padding-left: 3rem;
         font-weight: 700; }
   @media only screen and (max-width: 75em) {
     .skill {
@@ -454,7 +455,8 @@ body {
   align-items: center; }
   .contact_heading {
     padding: 2rem;
-    width: 100%; }
+    width: 100%;
+    color: #121212; }
   .contact_form {
     width: 80%;
     padding: 2rem;
@@ -464,10 +466,10 @@ body {
     .contact_form-box {
       position: relative; }
       .contact_form-box-input {
-        background-color: #f5f5f5;
+        background-color: #90d5ec;
         display: block;
         width: 100%;
-        padding: 0.5rem 1rem;
+        padding: 0.5rem 1.2rem;
         outline: none;
         border: none;
         border-bottom: 2px solid transparent;
@@ -476,16 +478,19 @@ body {
         position: relative; }
         .contact_form-box-input::placeholder {
           font-size: 1.5rem;
-          font-weight: 700; }
+          font-weight: 700;
+          color: #121212; }
         .contact_form-box-input:focus {
           outline: none;
-          border-bottom: 3px solid green; }
+          border-bottom: 3px solid #1f811f; }
         .contact_form-box-input:focus:invalid {
-          border-bottom: 3px solid red; }
+          border-bottom: 3px solid #fc575e; }
       .contact_form-box-label {
         font-size: 1.5rem;
         padding: 0.5rem 1.2rem;
         display: block;
+        font-weight: 700;
+        color: #121212;
         position: absolute;
         top: -3rem;
         left: 0;
@@ -497,7 +502,7 @@ body {
       .contact_form-box:not(:last-child) {
         margin-bottom: 5rem; }
       .contact_form-box-textarea {
-        background-color: #f5f5f5;
+        background-color: #90d5ec;
         display: block;
         width: 100%;
         padding: 0.5rem 1rem;
@@ -509,7 +514,8 @@ body {
         position: relative; }
         .contact_form-box-textarea::placeholder {
           font-size: 1.5rem;
-          font-weight: 700; }
+          font-weight: 700;
+          color: #121212; }
         .contact_form-box-textarea:focus {
           outline: none;
           border-bottom: 3px solid green; }
@@ -519,6 +525,8 @@ body {
         font-size: 1.5rem;
         padding: 0.5rem 1.2rem;
         display: block;
+        font-weight: 700;
+        color: #121212;
         position: absolute;
         top: -3rem;
         left: 0;
@@ -537,7 +545,6 @@ body {
   .submit .submit_btn {
     outline: none;
     border: 2px solid transparent;
-    border-bottom: 2px solid #f5f5f5;
     width: 30%;
     background-color: #3a3a3a;
     padding: 1rem 2rem;
@@ -555,10 +562,10 @@ body {
 .footer {
   display: flex;
   justify-content: center;
-  align-items: center;
-  color: #f5f5f5; }
+  align-items: center; }
 
 .copyright {
+  color: #121212;
+  font-weight: 700;
   margin: 2.5rem 5rem;
-  font-size: 1.75rem;
-  font-weight: 500; }
+  font-size: 1.75rem; }
