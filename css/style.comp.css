@@ -427,11 +427,11 @@ body {
         font-weight: 500;
         line-height: 1.2; }
         .skill_container-box-score-1 {
-          background-image: linear-gradient(90deg, #fc575e 93%, #90d5ec 93%); }
+          background-image: linear-gradient(90deg, #90d5ec 93%, #f5f5f5 93%); }
         .skill_container-box-score-2 {
-          background-image: linear-gradient(90deg, #fc575e 87%, #90d5ec 87%); }
+          background-image: linear-gradient(90deg, #90d5ec 87% #f5f5f5 87%); }
         .skill_container-box-score-3 {
-          background-image: linear-gradient(90deg, #fc575e 50%, #90d5ec 50%); }
+          background-image: linear-gradient(90deg, #90d5ec 50% #f5f5f5 50%); }
   .skill_other {
     padding: 2rem; }
     .skill_other-para {
@@ -472,7 +472,7 @@ body {
         padding: 0.5rem 1.2rem;
         outline: none;
         border: none;
-        border-bottom: 2px solid transparent;
+        border-bottom: 2px solid #166883;
         font-size: 1.75rem;
         font-weight: 500;
         position: relative; }
@@ -508,7 +508,7 @@ body {
         padding: 0.5rem 1rem;
         outline: none;
         border: none;
-        border-bottom: 2px solid transparent;
+        border-bottom: 2px solid #166883;
         font-size: 1.75rem;
         font-weight: 500;
         position: relative; }
@@ -516,11 +516,6 @@ body {
           font-size: 1.5rem;
           font-weight: 700;
           color: #121212; }
-        .contact_form-box-textarea:focus {
-          outline: none;
-          border-bottom: 3px solid green; }
-        .contact_form-box-textarea:focus:invalid {
-          border-bottom: 3px solid red; }
       .contact_form-box-arealabel {
         font-size: 1.5rem;
         padding: 0.5rem 1.2rem;
