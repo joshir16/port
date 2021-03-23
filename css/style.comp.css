@@ -394,7 +394,8 @@ body {
     font-style: italic;
     color: #f5f5f5;
     background-color: #3a3a3a;
-    transition: all 0.2s ease; }
+    transition: all 0.2s ease;
+    appearance: none; }
     .download-btn:hover {
       transform: translateY(-2px);
       box-shadow: 0 0 1.5rem #121212; }
@@ -468,7 +469,8 @@ body {
     padding: 2rem;
     display: flex;
     flex-direction: column;
-    justify-content: center; }
+    justify-content: center;
+    appearance: none; }
     .contact_form-box {
       position: relative; }
       .contact_form-box-input {
@@ -478,6 +480,7 @@ body {
         padding: 0.5rem 1.2rem;
         outline: none;
         border: none;
+        border-radius: 0;
         border-bottom: 2px solid #166883;
         font-size: 1.75rem;
         font-weight: 500;
@@ -514,6 +517,7 @@ body {
         padding: 0.5rem 1rem;
         outline: none;
         border: none;
+        border-radius: 0;
         border-bottom: 2px solid #166883;
         font-size: 1.75rem;
         font-weight: 500;
@@ -541,18 +545,16 @@ body {
       padding: 3rem; } }
 
 .submit {
-  width: 100%;
   text-align: center; }
   .submit .submit_btn {
     outline: none;
     border: 2px solid transparent;
-    width: 30%;
     background-color: #3a3a3a;
-    padding: 1rem 2rem;
+    padding: 0.5rem 2rem;
     cursor: pointer;
     color: #f5f5f5;
     font-size: 2rem;
-    font-weight: 700;
+    font-weight: 500;
     transition: all 0.2s ease;
     appearance: none; }
     .submit .submit_btn:hover {
