@@ -2,10 +2,20 @@
 
 .contact {
   padding: 5rem 7rem;
+
   display: flex;
-  flex-direction: column;
+  // flex-direction: column;
   justify-content: center;
   align-items: center;
+
+  &_box {
+    width: 80rem;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
 
   &_heading {
     padding: 2rem;
