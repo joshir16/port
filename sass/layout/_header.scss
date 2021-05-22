@@ -18,11 +18,11 @@
       minmax(6rem, 1fr);
   }
 
-  @media only screen and (max-width: $bp-smallest) {
-    grid-template-columns:
-      [head-start] repeat(2, [col-start] minmax(min-content, 20rem) [col-end])
-      [head-end];
-  }
+  // @media only screen and (max-width: $bp-smallest) {
+  //   grid-template-columns:
+  //     [head-start] repeat(2, [col-start] minmax(min-content, 20rem) [col-end])
+  //     [head-end];
+  // }
 
   &_info {
     grid-column: col-start 1 / col-end 2;

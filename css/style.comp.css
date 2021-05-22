@@ -24,8 +24,7 @@
 
 html {
   box-sizing: border-box;
-  font-size: 62.5%;
-  scroll-behavior: smooth; }
+  font-size: 62.5%; }
   @media only screen and (max-width: 75em) {
     html {
       font-size: 50%; } }
@@ -272,9 +271,6 @@ body {
   @media only screen and (max-width: 37.5em) {
     .header {
       grid-template-columns: minmax(6rem, 1fr) [head-start] repeat(2, [col-start] minmax(min-content, 30rem) [col-end]) [head-end] minmax(6rem, 1fr); } }
-  @media only screen and (max-width: 28.75em) {
-    .header {
-      grid-template-columns: [head-start] repeat(2, [col-start] minmax(min-content, 20rem) [col-end]) [head-end]; } }
   .header_info {
     grid-column: col-start 1 / col-end 2;
     grid-row: 2 / 4;
