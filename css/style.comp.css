@@ -110,7 +110,6 @@ body {
   right: 10rem;
   height: 4rem;
   background-color: rgba(18, 18, 18, 0.5);
-  backdrop-filter: blur(2rem) brightness(50%);
   border-radius: 0rem;
   border: none;
   opacity: 0;
@@ -119,6 +118,13 @@ body {
   align-items: center;
   transition: all 0.5s ease-in-out;
   z-index: 1000; }
+  @supports (-webkit-backdrop-filter: blur(2rem) brightness(50%)) or (backdrop-filter: blur(2rem) brightness(50%)) {
+    .navbar {
+      -webkit-backdrop-filter: blur(2rem) brightness(50%);
+      backdrop-filter: blur(2rem) brightness(50%); } }
+  @supports not ((-webkit-backdrop-filter: blur(2rem) brightness(50%)) or (backdrop-filter: blur(2rem) brightness(50%))) {
+    .navbar {
+      background-color: rgba(18, 18, 18, 0.9); } }
   @media only screen and (max-width: 37.5em) {
     .navbar {
       top: 0;
