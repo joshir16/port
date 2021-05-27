@@ -11,6 +11,7 @@
     <title>Rishabh</title>
 
     <script defer src="js/navbar.js"></script>
+    <script defer src="js/slider.js"></script>
   </head>
 
   <body>
@@ -132,86 +133,73 @@
       <!-- My Projects --------------------------------------------------->
       <section id="project" class="project">
         <h3 class="project_heading span_heading">projects</h3>
-        <div class="project_cont">
+        <!-- SLider -------------------------------------------->
+        <div class="project_cont slider">
           <!-- project box 1 ---------------------------------->
-          <a
-            href="https://joshir16.github.io/Natours/"
-            target="_blank"
-            class="project_cont_link"
-          >
-            <div class="project_cont-box-1 project_cont-boxes">
-              <h3 class="project_cont-boxes-name">Natours</h3>
-              <img
-                src="img/natours.jpg"
-                alt=""
-                class="project_cont-box-1-img project_cont-boxes-img"
-              />
+          <div class="slides slides-1">
+            <div class="slides_info">
+              <h3 class="slides_info-heading sub_heading">Natours</h3>
+              <p class="slides_info-para">
+                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Fugit
+                laborum accusantium similique quos, reiciendis sequi harum
+                excepturi vel adipisci? Sequi soluta aliquam quidem
+                reprehenderit provident!
+              </p>
             </div>
-          </a>
+            <div class="slides_img">
+              <div class="bg bg-1"></div>
+              <div class="slides_img-pic">
+                <img
+                  class="project_pic"
+                  src="img/natours.jpg"
+                  alt="project-1"
+                />
+              </div>
+            </div>
+          </div>
 
           <!-- project box 2 ---------------------------------->
-          <a
-            href="https://joshir16.github.io/Nexter/"
-            target="_blank"
-            class="project_cont_link"
-          >
-            <div class="project_cont-box-2 project_cont-boxes">
-              <h3 class="project_cont-boxes-name">Nexter</h3>
-              <img
-                src="img/nexter-1.jpg"
-                alt=""
-                class="project_cont-box-2-img project_cont-boxes-img"
-              />
+          <div class="slides slides-2">
+            <div class="slides_info">
+              <h3 class="slides_info-heading sub_heading">Nexter</h3>
+              <p class="slides_info-para">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut
+                itaque sit quis quibusdam hic eum voluptate, qui beatae est,
+                laudantium, temporibus magni dolores?
+              </p>
             </div>
-          </a>
+            <div class="slides_img">
+              <div class="bg bg-2"></div>
+              <div class="slides_img-pic">
+                <img
+                  class="project_pic"
+                  src="img/nexter-1.jpg"
+                  alt="project-2"
+                />
+              </div>
+            </div>
+          </div>
 
           <!-- project box 3 ---------------------------------->
-          <a
-            href="https://joshir16.github.io/Trillo/"
-            target="_blank"
-            class="project_cont_link"
-          >
-            <div class="project_cont-box-3 project_cont-boxes">
-              <h3 class="project_cont-boxes-name">Trillo</h3>
-              <img
-                src="img/trillo.jpg"
-                alt=""
-                class="project_cont-box-3-img project_cont-boxes-img"
-              />
+          <div class="slides slides-3">
+            <div class="slides_info">
+              <h3 class="slides_info-heading sub_heading">Trillo</h3>
+              <p class="slides_info-para">
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                Voluptate, eos maxime! Quod inventore eaque accusamus iste
+                voluptatibus dolorum obcaecati repellat.
+              </p>
             </div>
-          </a>
+            <div class="slides_img">
+              <div class="bg bg-3"></div>
+              <div class="slides_img-pic">
+                <img class="project_pic" src="img/trillo.jpg" alt="project-3" />
+              </div>
+            </div>
+          </div>
 
-          <!-- project box 4 ---------------------------------->
-          <a
-            href="https://joshir16.github.io/pig.game/"
-            target="_blank"
-            class="project_cont_link"
-          >
-            <div class="project_cont-box-4 project_cont-boxes">
-              <h3 class="project_cont-boxes-name">Pig Game</h3>
-              <img
-                src="img/PigGame.jpg"
-                alt=""
-                class="project_cont-box-4-img project_cont-boxes-img"
-              />
-            </div>
-          </a>
-
-          <!-- project box 5 ---------------------------------->
-          <a
-            href="https://joshir16.github.io/guess_my_number/"
-            target="_blank"
-            class="project_cont_link"
-          >
-            <div class="project_cont-box-5 project_cont-boxes">
-              <h3 class="project_cont-boxes-name">Guess Number Game</h3>
-              <img
-                src="img/GuessNum.jpg"
-                alt=""
-                class="project_cont-box-5-img project_cont-boxes-img"
-              />
-            </div>
-          </a>
+          <button class="btn_slide btn_slide-left">&larr;</button>
+          <button class="btn_slide btn_slide-right">&rarr;</button>
         </div>
       </section>
 
