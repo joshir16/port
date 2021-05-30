@@ -8,6 +8,10 @@
   box-sizing: inherit;
 }
 
+:root {
+  transition: all 1s;
+}
+
 html {
   box-sizing: border-box;
   font-size: 62.5%; // 10px/16px = 62.5% --> 1rem = 10px
@@ -25,9 +29,9 @@ html {
     font-size: 43.75%;
   }
 
-  // @media only screen and (max-width: $bp-smallest) {
-  //   font-size: 37.5%;
-  // }
+  @media only screen and (max-width: $bp-smallest) {
+    font-size: 37.5%;
+  }
 }
 
 body {
