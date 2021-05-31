@@ -87,7 +87,7 @@
   }
 
   &-1 {
-    background-color: rgba(0, 255, 68, 0.45);
+    background-color: hsla(136, 100%, 50%, 0.45);
   }
 
   &-2 {
@@ -95,7 +95,12 @@
   }
 
   &-3 {
-    background-color: rgba(255, 0, 13, 0.45);
+    background-color: hsla(357, 90%, 50%, 0.45);
+  }
+
+  &-4 {
+    background-color: rgba(175, 183, 10, 0.45);
+    // background-color: rgba(250, 201, 103, 0.45);
   }
 
   &_img {
@@ -200,5 +205,8 @@
 
   &-3 {
     background-color: rgba(82, 0, 4, 0.2);
+  }
+  &-4 {
+    background-color: rgba(175, 183, 92, 0.2);
   }
 }
