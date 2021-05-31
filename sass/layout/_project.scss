@@ -13,7 +13,7 @@
   justify-content: center;
   align-items: center;
 
-  @media only screen and (max-width: $bp-largest) {
+  @media only screen and (max-width: $bp-large) {
     height: 100vh;
     padding: 3rem;
   }
@@ -26,21 +26,20 @@
     width: 100%;
     text-align: left;
   }
+}
 
-  &_cont {
-    // border: 2px solid rebeccapurple;
-    width: 70%;
-    height: 60vh;
+.slider {
+  width: 70%;
+  height: 60vh;
 
-    position: relative;
-    overflow: hidden;
+  position: relative;
+  overflow: hidden;
 
-    @media only screen and (max-width: $bp-small) {
-      width: 100%;
-    }
-    @media only screen and (max-width: $bp-smallest) {
-      height: 80%;
-    }
+  @media only screen and (max-width: $bp-largest) {
+    width: 75%;
+  }
+  @media only screen and (max-width: $bp-small) {
+    width: 100%;
   }
 }
 
@@ -62,17 +61,6 @@
     grid-template-columns: 1fr;
     grid-template-rows: repeat(2, 1fr);
   }
-  @media only screen and (max-width: $bp-medium) {
-    padding: 5rem 10rem;
-  }
-
-  @media only screen and (max-width: $bp-small) {
-    padding: 5rem 7rem;
-  }
-
-  @media only screen and (max-width: $bp-smallest) {
-    padding: 10rem 7rem;
-  }
 
   &_info {
     display: flex;
@@ -82,18 +70,6 @@
 
     color: #f5f5f5;
     padding: 5rem 2rem;
-
-    @media only screen and (max-width: $bp-huge) {
-      padding: 2rem 1rem;
-      padding-left: 1rem;
-    }
-
-    @media only screen and (max-width: $bp-large) {
-      padding: 2rem 5rem;
-    }
-    @media only screen and (max-width: $bp-small) {
-      padding: 2rem 2rem;
-    }
 
     &-heading {
       padding-bottom: 1rem;
@@ -128,37 +104,27 @@
 
     padding: 5rem 2rem;
 
-    @media only screen and (max-width: $bp-huge) {
-      padding: 2rem 1rem;
-      padding-right: 1rem;
-    }
-
-    // @media only screen and (max-width: $bp-large) {
-    //   padding: 2rem 2rem;
-    // }
-
     &-pic {
       border: 1rem solid transparent;
       outline: 0.5rem solid #f5f5f5;
       filter: brightness(85%);
 
-      // display: flex;
-      // justify-content: center;
-      // align-items: center;
-
-      min-width: 35rem;
       max-width: 50rem;
+      min-width: 35rem;
       height: auto;
       z-index: 10;
 
       @media only screen and (max-width: $bp-large) {
+        max-width: 90%;
+      }
+      @media only screen and (max-width: $bp-medium) {
         max-width: 100%;
       }
     }
   }
 }
 
-.project_pic {
+.slide_pic {
   width: 100%;
   height: 100%;
   background-position: center;
