@@ -157,13 +157,15 @@
           height: 100%;
           background-position: center;
           background-size: cover;
+
+          transition: all 0.2s ease-in;
         }
       }
 
       &:hover > &-name {
         opacity: 1;
       }
-      &:hover > &-box {
+      &:hover &-box-pic {
         filter: blur(2px) brightness(50%);
       }
     }

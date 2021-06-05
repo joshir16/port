@@ -425,10 +425,11 @@ body {
           width: 100%;
           height: 100%;
           background-position: center;
-          background-size: cover; }
+          background-size: cover;
+          transition: all 0.2s ease-in; }
       .slides_img-link:hover > .slides_img-link-name {
         opacity: 1; }
-      .slides_img-link:hover > .slides_img-link-box {
+      .slides_img-link:hover .slides_img-link-box-pic {
         filter: blur(2px) brightness(50%); }
 
 .btn_slide {
