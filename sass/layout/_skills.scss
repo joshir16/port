@@ -60,12 +60,19 @@
         border-radius: 50%;
         width: 8rem;
         height: 8rem;
-        padding: 2rem;
-        background-color: hsl(357, 96%, 70%);
+        padding: 1rem;
 
         display: flex;
         justify-content: center;
         align-items: center;
+
+        &-svg {
+          fill: #90d5ec;
+
+          &:hover {
+            fill: #fc575e;
+          }
+        }
       }
 
       &-heading {

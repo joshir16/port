@@ -567,11 +567,14 @@ body {
         border-radius: 50%;
         width: 8rem;
         height: 8rem;
-        padding: 2rem;
-        background-color: #fc6970;
+        padding: 1rem;
         display: flex;
         justify-content: center;
         align-items: center; }
+        .skill_container-box-icon-svg {
+          fill: #90d5ec; }
+          .skill_container-box-icon-svg:hover {
+            fill: #fc575e; }
       .skill_container-box-heading {
         font-size: 2.4rem;
         font-weight: 500;
