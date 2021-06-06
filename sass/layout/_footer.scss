@@ -2,13 +2,46 @@
 
 .footer {
   display: flex;
-  justify-content: center;
+  justify-content: space-between;
   align-items: center;
-}
 
-.copyright {
-  color: #121212;
-  font-weight: 700;
-  margin: 2.5rem 5rem;
-  font-size: 1.75rem;
+  &_copyright {
+    color: #121212;
+    font-weight: 700;
+    margin: 2.5rem 5rem;
+    font-size: 1.75rem;
+
+    @media only screen and (max-width: $bp-small) {
+      margin: 0;
+      margin-bottom: 1rem;
+    }
+  }
+
+  &_box {
+    width: auto;
+    height: auto;
+    text-decoration: none;
+    margin: 2.5rem 5rem;
+    border: none;
+
+    @media only screen and (max-width: $bp-small) {
+      margin: 0;
+    }
+
+    &_link {
+      margin: 1rem;
+      padding: 1rem;
+
+      &-icon {
+        width: 2rem;
+        height: 2rem;
+        background-size: cover;
+      }
+    }
+  }
+
+  @media only screen and (max-width: $bp-small) {
+    flex-direction: column;
+    justify-content: center;
+  }
 }
